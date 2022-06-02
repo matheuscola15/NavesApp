@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tutorial
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1>Passo a passo</h1>
+
+  <p>A primeira coisa que devemos fazer é a instalação do Node.js, e instale a versão LTS </p>
+
+  <p>Link: https://nodejs.org/en/ </p>
+
+  <p>Após a instalação do node, iremos ir para o prompt de comando de seu computador para fazer a instalação do Ionic CLI, digitaremos o seguinte código dentro do prompt: </p>
+
+  <p><strong>npm install -g @ionic/cli </strong></p>
+
+  <p><strong>npm uninstall -g ionic</strong></p>
+
+  <p><strong>npm install -g @ionic/cli</strong></p>
+
+  <p>A parte de instalação do Ionic está completa, agora iremos para a criação do seu projeto! 1</p>
+
+  <p>Ainda dentro do seu prompt, vamos criar seu projeto: </p>
+
+  <p><strong>ionic start myApp tabs -–type=angular </strong></p>
+
+  <p>O ionic start é para a criarmos o projeto </p>
+
+  <p>O myApp é apenas o nome do seu projeto, ele pode ser modificado por você como quiser!</p>
+
+  <p>O tabs é o template que igualmente pode ser mudado por você, temos as seguintes opções de template: tabs, blank e sidemenu</p>
+
+  <p>E o -–type=angular é basicamente o tipo do projeto que iremos trabalhar, que será em angular, mas fica a sua escolha com o que você quer trabalhar. </p>
+
+  <p>Assim, temos nosso projeto ionic, agora é usar a sua genialidade e criatividade dentro do projeto!</p>
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-title size="large" color="tertiary"></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <app-explore-container>
+  </app-explore-container>
+</ion-content>
